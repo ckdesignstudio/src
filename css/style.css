@@ -41,15 +41,15 @@ nav {
         text-decoration: none;
         font-size: 13px;        
 }
-.nav-links ul li::after {
+    .nav-links ul li::after {
         content: '';
         width: 0%;
         height: 2px;
-        background: #f44336;
+        background: #e91e63;
         display: block;
         margin: auto;
-        transition: .5s;        
-}
+        transition: .5s;
+    }
 
 .nav-links ul li:hover::after{
     width: 100%;
@@ -104,10 +104,10 @@ nav .fa{
     display: inline-block;
     text-decoration: none;
     color: #fff;
-    border: 1px solid #f44336;
+    border: 1px solid #e91e63;
     padding: 12px 20px;
     font-size: 13px;
-    background: #f44336;
+    background: #e91e63;
     border-radius: 5px;
     position: relative;
     cursor: pointer;
@@ -126,15 +126,14 @@ nav .fa{
     {
         display: block;
     }
-    .nav-links
-    {
+    .nav-links {
         position: absolute;
-        background: #f44336;
+        background: #e91e63;
         height: 100vh;
         width: 200px;
         top: 0;
         right: -200px;
-        text-align: left;        
+        text-align: left;
         transition: 0.5s;
     }
     .nav-links ul{
@@ -246,7 +245,7 @@ h3{
     transition: .5s;
 }
 .layer:hover{
-    background: rgba(226, 0, 0, 0.7);
+    background: rgba(233, 30, 99, 0.7);
 }
 .layer h3{
     width: 100%;
