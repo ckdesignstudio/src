@@ -135,6 +135,7 @@ nav .fa{
         right: -200px;
         text-align: left;
         transition: 0.5s;
+        z-index: 3;
     }
     .nav-links ul{
         padding: 30px;
