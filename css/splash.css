@@ -1,0 +1,64 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'poppins', sans-serif;
+}
+.container {
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 50px 8%;
+    background: #000;
+}
+svg{
+    font-size: 150px;
+}
+.copy{
+    fill: none;
+    stroke: #fff;
+    stroke-width: 3px;
+    stroke-dasharray: 8% 30%;
+    stroke-dashoffset: 0%;
+    animation: textanimation 6s linear infinite;
+}
+@keyframes textanimation {
+    100%{
+        stroke-dashoffset: -35%;
+    }
+}
+.copy1 {
+    stroke: #7CC1E8;
+    animation-delay: -1s;
+}
+.copy2 {
+    stroke: #C5CD53;
+    animation-delay: -2s;
+}
+.copy3 {
+    stroke: #807c78;
+    animation-delay: -3s;
+}
+.copy4 {
+    stroke: #e91e63;
+    animation-delay: -4s;
+}
+.copy5 {
+    stroke: #ffffff;
+    animation-delay: -5s;
+}
+.arrow {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    bottom: 60px;
+    width: 100%;
+    
+}
+.arrow a {
+        color: #fff;
+        text-decoration: none;
+}
