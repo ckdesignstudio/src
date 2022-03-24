@@ -515,6 +515,7 @@ h3{
 
 
 @media (max-width:700px){
+    
     .sub-header h1{
         font-size: 32px;
     }
@@ -575,4 +576,11 @@ h3{
 .footer-link{
     text-decoration: none;
     color: #777;
+}
+
+@media (max-width:700px) {
+    .contact-col div h5{
+        font-size: 16px;
+    }
+
 }
