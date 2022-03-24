@@ -392,14 +392,15 @@ h3{
 
 
 .sub-header {
-    height: 100vh;
+    height: 50vh;
     width: 100%;
-    background-image: url(../images/bg_innerpages.png);
+    background-image: url(../images/bg_innerpages.jpg);
     background-position: center;
     background-size: cover;
     text-align: center;
     color: #fff;
 }
+
 
 .sub-header h1 {
     margin-top: 35vh;
