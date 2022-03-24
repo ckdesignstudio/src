@@ -579,8 +579,12 @@ h3{
 }
 
 @media (max-width:700px) {
-    .contact-col div h5{
-        font-size: 16px;
+
+    .contact-us {
+        width: 90%;
+    }
+        .contact-col div h5{
+        font-size: 15px;
     }
 
 }
