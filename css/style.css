@@ -1,4 +1,4 @@
-*{
+* {
     margin: 0;
     padding: 0;
     font-family: 'Poppins', sans-serif;
@@ -69,7 +69,7 @@ nav .fa{
 }
     .text-box h1 {
         font-size: 90px;
-        margin: 0 0 20px 80px;
+        margin: 0 0 10px 100px;
         font-weight: 400;
     }
 .text-box p{
@@ -106,14 +106,14 @@ nav .fa{
     text-decoration: none;
     color: #fff;
     border: 1px solid #e91e63;
-    padding: 12px 20px;
-    font-size: 13px;
+    padding: 20px 40px;
+    font-size: 18px;
     background: #e91e63;
     border-radius: 5px;
     position: relative;
     cursor: pointer;
     transition: 1s;
-    margin: 0 0 20px 80px;
+    margin: 0 0 20px 100px;
 }
 
     .hero-btn:hover {
@@ -145,15 +145,24 @@ nav .fa{
     nav .fa{
         display: block;
         color: #fff;
-        margin: 10px;
+        margin: 20px;
         font-size: 22px;
         cursor: pointer; 
     }
-    .text-box h1{
-        font-size: 32px;
+    .text-box{
+        width: 100%;
+    }
+    .text-box h1 {
+        font-size: 48px;
+        margin: 0 0 0 40px;
+    }
+    .hero-btn {
+        padding: 10px 10px;
+        font-size: 14px;
+        margin: 0 0 0 40px;
     }
     .circular-text {
-        width: 90%;
+        width: 85%;
         position: absolute;
         top: 100%;
         left: 50%;
@@ -162,7 +171,7 @@ nav .fa{
     }
 
         .circular-text .loading {
-            width: 80%;
+            width: 100%;
             height: auto;
             animation: rotate 3s infinite linear;
             animation-duration: 12s;
@@ -172,37 +181,42 @@ nav .fa{
 
 /*---------- course --------*/
 
-.course{
-    width: 80%;
+.course {
+    width: 100%;
     margin: auto;
     text-align: center;
     padding-top: 100px;
 }
 h1{
-    font-size: 36px;
+    font-size: 48px;
     font-weight: 600;
 }
+h4 {
+    font-size: 20px;
+    font-weight: 400;
+}
+
 p{
-    color: #777;
-    font-size: 14px;
+    font-size: 16px;
     font-weight: 300;
     line-height: 22px;
     padding: 10px;
 }
 .row{
-    margin-top: 5%;
+    margin: 5% 10% 5% 10%;
     display: flex;
     justify-content: space-between;  
 }
-  
-.course-col{
-    flex-basis: 31%;
-    background: #fff3f3;
+
+.course-col {
+    flex-basis: 30%;
+    background-image: url(../images/bg_courses.png);
     border-radius: 10px;
     margin-bottom: 5%;
-    padding: 20px 12px;
+    padding: 30px;
     box-sizing: border-box;
     transition: .5s;
+    text-align: left;
 }
 h3{
     text-align: center;
@@ -210,7 +224,7 @@ h3{
     margin: 10px 0;
 }
 .course-col:hover{
-    box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 0 10px 0px rgba(0, 0, 0, 0.7);
 }
 
 @media (max-width:700px){
@@ -221,7 +235,7 @@ h3{
 
 /*---------------- campus ----------------*/
 
-.campus{
+.campus {
     width: 80%;
     margin: auto;
     text-align: center;
@@ -361,6 +375,25 @@ h3{
         font-size: 24px;
     }
 }
+
+.cta-btn {
+    display: inline-block;
+    text-decoration: none;
+    color: #fff;
+    border: 1px solid #e91e63;
+    padding: 20px 40px;
+    font-size: 16px;
+    background: #e91e63;
+    border-radius: 5px;
+    position: relative;
+    cursor: pointer;
+    transition: 1s;
+}
+
+    .cta-btn:hover {
+        border: 1px solid #fff;
+        background: transparent;
+    }
 
 /*--------------Footer---------------*/
 
