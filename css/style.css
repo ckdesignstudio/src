@@ -68,12 +68,12 @@ nav .fa{
     text-align: left;
 }
     .text-box h1 {
-        font-size: 90px;
-        margin: 0 0 10px 100px;
+        font-size: 68px;
+        margin: 0 0 10px 30px;
         font-weight: 400;
     }
 .text-box p{
-    margin: 20px 0 40px;
+    margin: 20px 0 20px;
     font-size: 14px;
     color: #fff;
 }
@@ -106,14 +106,14 @@ nav .fa{
     text-decoration: none;
     color: #fff;
     border: 1px solid #e91e63;
-    padding: 20px 40px;
+    padding: 20px 20px;
     font-size: 18px;
     background: #e91e63;
     border-radius: 5px;
     position: relative;
     cursor: pointer;
     transition: 1s;
-    margin: 0 0 20px 100px;
+    margin: 0 0 20px 30px;
 }
 
     .hero-btn:hover {
