@@ -208,7 +208,7 @@ p{
 
 .course-col {
     flex-basis: 30%;
-    background-image: url(./src/images/bg_courses.png);
+    background-image: url(../images/bg_courses.png);
     border-radius: 10px;
     margin-bottom: 5%;
     padding: 30px;
