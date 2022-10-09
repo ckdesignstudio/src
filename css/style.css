@@ -184,6 +184,8 @@ nav .fa{
     margin: auto;
     text-align: center;
     padding-top: 100px;
+    padding-bottom: 50px;
+    background: #eeeeee;
 }
 h1{
     font-size: 48px;
@@ -213,16 +215,18 @@ p{
     margin-bottom: 5%;
     padding: 30px;
     box-sizing: border-box;
-    transition: .5s;
+    box-shadow: inset -10px -10px 15px rgba(255, 255, 255, 0.70), inset 10px 10px 15px rgba(70, 70, 70, 0.25);
+    transition: .25s;
     text-align: left;
 }
-h3{
+h3 {
     text-align: center;
     font-weight: 600;
     margin: 10px 0;
 }
-.course-col:hover{
-    box-shadow: 0 0 10px 0px rgba(0, 0, 0, 0.7);
+.course-col:hover {
+    background-image: url(../images/bg_courses2.png);
+    box-shadow: inset -10px -10px 15px rgba(255, 255, 255, 0.90), inset 10px 10px 15px rgba(70, 70, 70, 0.50);
 }
 
 @media (max-width:700px){
