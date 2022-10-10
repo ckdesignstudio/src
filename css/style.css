@@ -1,7 +1,7 @@
 * {
     margin: 0;
     padding: 0;
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Poppins', sans-serif;\
 }
 .header {
     min-height: 100vh;
@@ -30,26 +30,29 @@ nav {
     flex: 1;
     text-align: right;
 }
-.nav-links ul li{
-    list-style: none;
-    display: inline-block;
-    padding: 8px 12px;
-    position: relative;
-}
-.nav-links ul li a {
-        color: #fff;
-        text-decoration: none;
-        font-size: 13px;        
-}
-    .nav-links ul li::after {
-        content: '';
-        width: 0%;
-        height: 2px;
-        background: #e91e63;
-        display: block;
-        margin: auto;
-        transition: .5s;
+    .nav-links ul li {
+        list-style: none;
+        display: inline-block;
+        padding: 8px 12px;
+        position: relative;
+        
     }
+        .nav-links ul li a {
+            color: #fff;
+            text-decoration: none;
+            font-size: 13px;
+            
+        }
+        .nav-links ul li::after {
+            content: '';
+            width: 0%;
+            height: 2px;
+            background: #e91e63;
+            display: block;
+            margin: auto;
+            transition: .5s;
+            
+        }
 
 .nav-links ul li:hover::after{
     width: 100%;
@@ -258,20 +261,39 @@ h3 {
 /*---------------- campus ----------------*/
 
 .campus {
-    width: 80%;
+    width: 100%;
     margin: auto;
     text-align: center;
-    padding-top: 50px;
+    padding-top: 10px;
+    background: #eeeeee;
 }
-.campus-col{
-    flex-basis: 32%;
+/*
+.course-col {
+    flex-basis: 30%;
+    background-image: url(../images/bg_courses.png);
     border-radius: 10px;
-    margin-bottom: 30px;
-    position: relative;
-    overflow: hidden;
+    margin-bottom: 5%;
+    padding: 30px;
+    box-sizing: border-box;
+    box-shadow: inset -10px -10px 15px rgba(255, 255, 255, 0.70), inset 10px 10px 15px rgba(70, 70, 70, 0.25);
+    transition: .50s;
+    text-align: left;
 }
-.campus-col img{
-    width: 100%;
+*/
+.campus-col {
+    flex-basis: 30%;
+    background-image: url(../images/bg_black.png);
+    border-radius: 10px;
+    margin-bottom: 5%;
+    padding: 30px;
+    box-sizing: border-box;
+    box-shadow: inset -10px -10px 15px rgba(255, 255, 255, 0.20), inset 10px 10px 15px rgba(70, 70, 70, 0.25);
+    transition: .50s;
+    text-align: left;
+}
+.campus-col:hover {
+    background-image: url(../images/bg_courses2.png);
+    box-shadow: inset -10px -10px 15px rgba(255, 255, 255, 0.90), inset 10px 10px 15px rgba(70, 70, 70, 0.50);
 }
 
 .layer{
@@ -476,7 +498,7 @@ h3 {
     width: 80%;
     margin: auto;
     padding-top: 80px;
-    padding-bottom: 50px;    
+    padding-bottom: 50px;
 }
 
 .about-col {
@@ -515,12 +537,13 @@ h3 {
 
 /*---------- Blog Page -------------*/
 
-.blog-content{
+.blog-content {
     width: 80%;
     margin: auto;
     padding: 60px 0;
+    background: #eeeeee;
 }
-.blog-left{
+.blog-left {
     flex-basis: 65%;
 }
 .blog-right{
@@ -593,11 +616,11 @@ h3 {
     margin: auto;
     padding: 80px 0;
 }
-.location iframe{
-    width: 100%;
-}
+    .location iframe {
+        width: 100%;
+    }
 
-.contact-us{
+.contact-us {
     width: 80%;
     margin: auto;
 }
