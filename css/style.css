@@ -161,20 +161,22 @@ nav .fa{
         margin: 0 0 0 0;
     }
     .circular-text {
-        width: 40%;
+        width: 100%;
         position: absolute;
         top: 100%;
         left: 50%;
         transform: translate(-50%, -50%);
         text-align: center;
     }
+
         .circular-text .loading {
-            width: 100%;
+            width: 50%;
             height: auto;
             animation: rotate 3s infinite linear;
             animation-duration: 12s;
         }
 }
+
 
 
 /*---------- projects --------*/
