@@ -343,7 +343,7 @@ h3 {
     display: flex;
 }
 .testimonial-col:hover {
-    background-image: url(../images/bg_facilityhover.png);
+    background-image: url(../images/bg_courses2.png);
     box-shadow: inset -10px -10px 15px rgba(70, 70, 70, 0.10), inset 10px 10px 15px rgba(70, 70, 70, 0.50);
 }
 .testimonial-col img{
