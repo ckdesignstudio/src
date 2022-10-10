@@ -297,35 +297,6 @@ h3 {
     box-shadow: inset -10px -10px 15px rgba(255, 255, 255, 0.90), inset 10px 10px 15px rgba(70, 70, 70, 0.50);
 }
 
-.layer{
-    background: transparent;
-    height: 100%;
-    width: 100%;
-    top: 0;
-    left: 0;
-    position: absolute;
-    transition: .5s;
-}
-.layer:hover{
-    background: rgba(233, 30, 99, 0.7);
-}
-.layer h3{
-    width: 100%;
-    font-weight: 500;
-    color: #fff;
-    font-size: 26px;
-    bottom: 0;
-    left: 50%;
-    transform: translateX(-50%);
-    position: absolute;
-    opacity: 0;
-    transition: .5s;
-}
-.layer:hover h3{
-    bottom: 49%;
-    opacity: 1;
-}
-
 /*-------------- Facilities ----------------*/
 
 .facility{
@@ -401,7 +372,7 @@ h3 {
 
 .cta{
     margin: 100px auto;
-    width: 80%;
+    width: 100%;
     background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(../images/banner2.jpg);
     background-position: center;
     background-size: cover;
