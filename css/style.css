@@ -161,7 +161,7 @@ nav .fa{
         margin: 0 0 0 0;
     }
     .circular-text {
-        width: 60%;
+        width: 40%;
         position: absolute;
         top: 100%;
         left: 50%;
@@ -216,7 +216,7 @@ p{
     padding: 30px;
     box-sizing: border-box;
     box-shadow: inset -10px -10px 15px rgba(255, 255, 255, 0.70), inset 10px 10px 15px rgba(70, 70, 70, 0.25);
-    transition: .25s;
+    transition: .50s;
     text-align: left;
 }
 h3 {
