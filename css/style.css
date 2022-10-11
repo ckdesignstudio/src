@@ -189,7 +189,7 @@ nav .fa{
     margin: auto;
     text-align: center;
     padding-top: 150px;
-    padding-bottom: 50px;
+    padding-bottom: 10px;
     background: #eeeeee;
 }
 h1{
@@ -214,7 +214,7 @@ p{
 }
 
 .course-col {
-    flex-basis: 30%;
+    flex-basis: 32%;
     background-image: url(../images/bg_courses.png);
     border-radius: 10px;
     margin-bottom: 5%;
@@ -269,7 +269,7 @@ h3 {
     background: #eeeeee;
 }
 .campus-col {
-    flex-basis: 32%;
+    flex-basis: 30%;
     background-image: url(../images/bg_black.png);
     border-radius: 10px;
     margin-bottom: 50px;
@@ -298,7 +298,7 @@ h3 {
     padding-top: 150px;
 }
 .facility-col {
-    flex-basis: 28%;
+    flex-basis: 29%;
     border-radius: 10px;
     margin-bottom: 5%;
     text-align: left;
@@ -328,7 +328,7 @@ h3 {
 .testimonials{
     width: 100%;
     margin: auto;
-    padding-top: 50px;
+    padding-top: 10px;
     text-align: center;
 }
 
