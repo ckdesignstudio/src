@@ -284,7 +284,8 @@ h3 {
         text-align: left;
     }
     .course-col-btn {
-        text-align: center;               
+        text-align: center;
+        padding: 0px;
     }
 } 
 
