@@ -277,7 +277,7 @@ h3 {
     }
     .course-col p{
         font-size: 14px;
-        padding: 0px;
+        margin: 0px;
     }
 } 
 
@@ -399,8 +399,8 @@ h3 {
         margin-left: 0px;
         margin-right: 15px;
     }
-    .testimonial-col p {
-        padding: 0px;
+    .testimonial-col p{
+        margin: 0px;
     }
 }
 
