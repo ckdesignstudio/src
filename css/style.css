@@ -201,14 +201,14 @@ h4 {
 }
 
 p{
-    font-size: 14px;
+    font-size: 16px;
     font-weight: 300;
-    line-height: 20px;
-    margin-top: 10px;
+    line-height: 24px;
     margin-left: 20px;
     margin-right: 20px;
    
 }
+
 .row{
     margin: 5% 10% 5% 10%;
     display: flex;
@@ -247,7 +247,7 @@ p{
 h3 {
     text-align: center;
     font-weight: 600;
-    margin: 10px 0;
+    margin: 30px auto;
     font-size: 18px;
 }
 .course-col:hover {
