@@ -270,6 +270,8 @@ h3 {
 }
 .campus-col {
     flex-basis: 26%;
+    width: 100%;
+    margin: auto;
     background-image: url(../images/bg_black.png);
     border-radius: 10px;
     margin-bottom: 50px;
