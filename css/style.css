@@ -434,7 +434,7 @@ h3 {
     background-size: cover;
     /*border-radius: 10px;*/
     text-align: center;
-    padding: 100px 20px 20px 0;
+    padding: 100px 20px 20px 0px;
 }
 .cta h1{
     color: #fff;
@@ -461,10 +461,13 @@ h3 {
         background: transparent;
     }
 
-@media(max-width:700px) {       
+@media(max-width:700px) {
+    .cta {
+        margin: 10px auto 10px;
+    }
     .cta h1 {
         font-size: 24px;
-        padding: 40px 10px 10px 10px;
+        padding: 40px 10px 10px 40px;
         } 
 }
 
