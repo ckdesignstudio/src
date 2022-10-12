@@ -410,11 +410,11 @@ h3 {
     .testimonial-col img{
         margin-left: 10px;
         margin-right: 15px;
-        margin-top: 10px;
+        padding-top: 10px;
     }
         .testimonial-col .fa {
             color: #01C4FF;
-            margin-bottom: 20px;
+            padding-bottom: 20px;
         }
 }
 
