@@ -407,6 +407,10 @@ h3 {
         padding: 5px;       
     }
 
+        .testimonial-col p {
+            padding-top: 10px;
+        }
+
     .testimonial-col img{
         margin-left: 10px;
         margin-right: 15px;
