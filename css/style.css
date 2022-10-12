@@ -434,7 +434,7 @@ h3 {
     background-size: cover;
     /*border-radius: 10px;*/
     text-align: center;
-    padding: 100px 20px 20px 0px;
+    padding: 100px 20px 20px 100px;
 }
 .cta h1{
     color: #fff;
