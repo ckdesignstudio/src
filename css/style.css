@@ -277,6 +277,9 @@ h3 {
     .course {
         padding-top: 50px;
     }
+    .course-col {
+        padding: 0px;
+    }
 } 
 
 /*---------------- campus ----------------*/
