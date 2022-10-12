@@ -502,6 +502,9 @@ h3 {
         width: 90%;
         padding: 20px;
     }
+    footer h3 {
+        text-align: center;
+    }
 }
 
 
