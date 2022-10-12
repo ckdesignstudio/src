@@ -256,8 +256,9 @@ h3 {
 }
 
 @media (max-width:700px){
-    .row{
+    .row {
         flex-direction: column;
+        margin: 5% 5% 5% 5%
     }
     h1 {
         font-size: 28px;
@@ -270,18 +271,13 @@ h3 {
 
     }
 
-
-    .row {
-        margin: 5% 5% 5% 5%;
-    }
-    .course {
+.course {
         padding-top: 50px;
+        padding-bottom: 15px;
     }
     .course p{
+        
         font-size: 14px;
-    }
-    .course-col {
-        padding: 0px;
     }
 } 
 
