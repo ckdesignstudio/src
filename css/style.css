@@ -393,6 +393,7 @@ h3 {
 @media(max-width:700px){
     .cta h1{
         font-size: 20px;
+        padding: 5px;
     }
 }
 
