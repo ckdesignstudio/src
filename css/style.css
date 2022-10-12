@@ -275,9 +275,10 @@ h3 {
         padding-top: 75px;
         padding-bottom: 50px;
     }
-    .course-col p{
+    .course-col p {
         font-size: 14px;
         margin: 0px;
+        text-align: left;
     }
 } 
 
