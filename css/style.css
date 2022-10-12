@@ -1,7 +1,7 @@
 * {
     margin: 0;
     padding: 0;
-    font-family: 'Poppins', sans-serif;\
+    font-family: 'Poppins', sans-serif;
 }
 .header {
     min-height: 100vh;
@@ -171,7 +171,6 @@ nav .fa{
         transform: translate(-50%, -50%);
         text-align: center;
     }
-
         .circular-text .loading {
             width: 80%;
             height: auto;
@@ -179,7 +178,6 @@ nav .fa{
             animation-duration: 12s;
         }
 }
-
 
 
 /*---------- projects --------*/
@@ -220,7 +218,6 @@ p{
     margin-bottom: 5%;
     padding: 30px;
     box-sizing: border-box;
-    /*box-shadow: inset -10px -10px 15px rgba(255, 255, 255, 0.70), inset 10px 10px 15px rgba(70, 70, 70, 0.25);*/
     transition: .50s;
     text-align: left;
 }
@@ -286,12 +283,12 @@ h3 {
         background-image: url(../images/bg_campushover.png);
         box-shadow: inset -10px -10px 15px rgba(255, 255, 255, 0.90), inset 10px 10px 15px rgba(70, 70, 70, 0.50);
     }
-/*@media(max-width:700px) {
-    .campus-col img {
+@media(max-width:700px) {
+    .campus-col{
         margin-left: 0px;
-        margin-right: 15px;
+        margin-right: 0px;
     }
-}*/
+}
 /*-------------- Facilities ----------------*/
 
 .facility{
@@ -329,7 +326,7 @@ h3 {
 
 @media(max-width:700px) {
     .facility {
-        padding-top: 40px;
+        padding-top: 40px; 
     }
 }
 
