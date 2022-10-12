@@ -427,14 +427,15 @@ h3 {
 
 .cta {
     margin: 50px auto 50px;
-    max-width: 80%;
+    max-width: 70%;
     background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(../images/banner2.jpg);
     background-position: center center;
     background-attachment: fixed;
     background-size: cover;
     /*border-radius: 10px;*/
     text-align: center;
-    padding: 100px 20px 20px 100px;
+    padding: 100px;
+    
 }
 .cta h1{
     color: #fff;
