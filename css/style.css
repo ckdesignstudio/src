@@ -411,6 +411,10 @@ h3 {
         margin-right: 15px;
         margin-top: 10px;
     }
+        .testimonial-col .fa {
+            color: #01C4FF;
+            margin-bottom: 20px;
+        }
 }
 
 /*-------- Call To Action ----------*/
