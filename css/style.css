@@ -194,16 +194,20 @@ h1{
     font-size: 48px;
     font-weight: 600;
 }
+
 h4 {
-    font-size: 20px;
+    font-size: 18px;
     font-weight: 300;
 }
 
 p{
-    font-size: 16px;
+    font-size: 14px;
     font-weight: 300;
-    line-height: 22px;
-    padding: 10px;
+    line-height: 20px;
+    margin-top: 10px;
+    margin-left: 20px;
+    margin-right: 20px;
+   
 }
 .row{
     margin: 5% 10% 5% 10%;
@@ -216,15 +220,35 @@ p{
     background-image: url(../images/bg_courses.png);
     border-radius: 10px;
     margin-bottom: 5%;
-    padding: 30px;
+    padding: 40px;
     box-sizing: border-box;
     transition: .50s;
     text-align: left;
 }
+
+.course-col-btn {
+    display: inline-block;
+    text-decoration: none;
+    text-align: left;
+    margin-top: 10px;
+    color: #e91e63;
+    border: 0px solid #e91e63;
+    padding: 20px;
+    font-size: 14px;
+    position: relative;
+    cursor: pointer;
+    transition: 1s;
+}
+
+    .course-col-btn:hover {
+        color: rgba(0,0,0,0.7);
+    }
+
 h3 {
     text-align: center;
     font-weight: 600;
     margin: 10px 0;
+    font-size: 18px;
 }
 .course-col:hover {
     background-image: url(../images/bg_courses2.png);
@@ -240,14 +264,14 @@ h3 {
     }
 
     h4 {
-        font-size: 16px;
+        font-size: 10px;
         margin: 20px 30px 30px 30px;
         text-align: left;
 
     }
     p {
         font-size: 14px;
-        padding: 10px;
+        padding: 5px;
     }
 
     .row {
@@ -294,10 +318,10 @@ h3 {
     width: 100%;
     margin: auto;
     text-align: center;
-    padding-top: 150px;
+    padding-top: 175px;
 }
 .facility-col {
-    flex-basis: 29%;
+    flex-basis: 27%;
     border-radius: 10px;
     margin-bottom: 5%;
     text-align: left;
@@ -313,14 +337,16 @@ h3 {
     width: 100%;
     border-radius: 10px;
 }
-.facility-col p{
-    padding: 10px;
-}
 .facility-col h3{
     margin-top: 6px;
-    margin-bottom: 5px;
+    margin-bottom: 10px;
     text-align: left;
-    padding: 10px;
+    margin-left: 20px;
+}
+
+.facility-col p{
+    margin-bottom: 30px;
+    font-size: 14px;
 }
 
 @media(max-width:700px) {
@@ -339,12 +365,12 @@ h3 {
 }
 
 .testimonial-col {
-    flex-basis: 44%;
+    flex-basis: 40%;
     border-radius: 10px;
     margin-bottom: 5%;
     text-align: left;
     background: #eeeeee;
-    padding: 25px;
+    padding: 50px;
     cursor: pointer;
     display: flex;
 }
@@ -358,8 +384,8 @@ h3 {
     margin-right: 30px;
     border-radius: 50%;
 }
-.testimonial-col p{
-    padding: 0;
+.testimonial-col p {
+    margin-left: 0px;
 }
 .testimonial-col h3{
     margin-top: 15px;
@@ -380,19 +406,20 @@ h3 {
 
 
 .cta{
-    margin: 50px auto;
-    width: 90%;
+    margin: 50px auto 50px;
+    width: 80%;
     background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(../images/banner2.jpg);
     background-position: center;
     background-size: cover;
     border-radius: 10px;
     text-align: center;
-    padding: 100px 0;
+    padding: 100px;
 }
 .cta h1{
     color: #fff;
     margin-bottom: 40px; 
     padding: 0; 
+    text-align: center;
 }
 
 .cta-btn {
@@ -425,6 +452,7 @@ h3 {
 .footer {
     width: 100%;
     text-align: center;
+    padding-top: 50px;
     padding-bottom: 40px;
 }
     .footer h3 {
