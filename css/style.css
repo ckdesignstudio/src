@@ -425,13 +425,14 @@ h3 {
 /*-------- Call To Action ----------*/
 
 
-.cta{
+.cta {
     margin: 50px auto 50px;
-    width: 80%;
+    max-width: 100%;
     background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(../images/banner2.jpg);
-    background-position: center;
+    background-position: center center;
+    background-attachment: fixed;
     background-size: cover;
-    border-radius: 10px;
+    /*border-radius: 10px;*/
     text-align: center;
     padding: 100px;
 }
@@ -460,16 +461,11 @@ h3 {
         background: transparent;
     }
 
-@media(max-width:700px) {
-    cta {
-        background-size: 100vw;
-    }        
+@media(max-width:700px) {       
     .cta h1 {
         font-size: 24px;
         padding: 40px 10px 10px 10px;
-        }
-
- 
+        } 
 }
 
 
