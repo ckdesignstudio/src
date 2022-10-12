@@ -442,13 +442,17 @@ h3 {
     }
 
 @media(max-width:700px) {
-    .cta h1 {
+    .cta {
+        margin-top: 50px;
+    }
+        .cta h1 {
         font-size: 24px;
         padding: 40px 10px 10px 10px;
     }
 }
-/*--------------Footer---------------*/
 
+
+/*--------------Footer---------------*/
 .footer {
     width: 100%;
     text-align: center;
