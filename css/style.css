@@ -481,6 +481,7 @@ h3 {
         margin-top: 20px;
         font-weight: 600;
         font-size: 30px;
+        text-align: center;
     }
     .footer p a {
         text-decoration: none;
@@ -501,8 +502,10 @@ h3 {
     .footer {
         width: 90%;
         padding: 20px;
-        text-align: center;
     }
+        .footer h3 {
+            text-align: center;
+        }
 }
 
 /*--------------- About Us Page --------------*/
