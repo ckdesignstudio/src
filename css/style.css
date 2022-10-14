@@ -463,7 +463,8 @@ h3 {
 
 @media(max-width:700px) {
     .cta {
-        margin: 10px auto 10px;
+        margin: 0px auto 0px;
+        border-radius: 0px;
     }
     .cta h1 {
         font-size: 20px;
